@@ -1,0 +1,8 @@
+[user]
+	email = 
+	name = yokrh
+[core]
+	editor = vim
+[alias]
+  l = log --pretty=format:\"%C(yellow)%h %C(White)%ad | %C(White)%s%C(Green)%d %C(Red)[%an]\" --graph --date=short  
+
