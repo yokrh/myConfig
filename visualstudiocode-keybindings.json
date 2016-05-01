@@ -5,6 +5,8 @@
 { "key": "cmd+[", "command": "workbench.action.focusLeftEditor" },
 { "key": "cmd+]", "command": "workbench.action.focusRightEditor" },
 
+{ "key": "shift+cmd+f", "command": "editor.action.startFindReplaceAction" },
+
 { "key": "cmd+i", "command": "editor.action.trimTrailingWhitespace",
     "when": "editorTextFocus" },
 
@@ -38,7 +40,7 @@
 { "key": "cmd+up", "command": "cursorPageUp",
     "when": "editorTextFocus" },
 { "key": "shift+cmd+up", "command": "cursorPageUpSelect",
-    "when": "editorTextFocus" },
+    "when": "editorTextFocus" }
 
 //{ "key": "shift+cmd+u", "command": "cursorUndo", "when": "editorTextFocus" }
 //{ "key": "cmd+. up", "command": "workbench.files.action.openPreviousWorkingFile" },
