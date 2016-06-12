@@ -5,6 +5,8 @@
 { "key": "cmd+[", "command": "workbench.action.focusLeftEditor" },
 { "key": "cmd+]", "command": "workbench.action.focusRightEditor" },
 
+{ "key": "cmd+;", "command": "workbench.action.editor.changeLanguageMode" },
+
 { "key": "shift+cmd+f", "command": "editor.action.startFindReplaceAction" },
 
 { "key": "cmd+i", "command": "editor.action.trimTrailingWhitespace",
