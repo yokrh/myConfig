@@ -1,7 +1,23 @@
 // Place your settings in this file to overwrite the default settings
 {
-	// When enabled, will open files in a new window instead of reusing an existing instance.
-	"window.openFilesInNewWindow": false,
-	// Controls the rendering size of tabs in characters. Accepted values: "auto", 2, 4, 6, etc. If set to "auto", the value will be guessed when a file is opened.
-	"editor.tabSize": 2
+
+  // ファイルを新しいウィンドウで開くかどうかを制御します。
+  // - default: ファイルのフォルダーが開かれていたウィンドウでファイルを開くか、Dock または Finder を使用して開く場合以外は最後のアクティブ ウィンドウでファイルを開きます (macOS のみ
+  // - on: 新しいウィンドウでファイルを開きます
+  // - off: ファイルのフォルダーが開かれていたウィンドウまたは最後のアクティブ ウィンドウでファイルを開きます
+  // この設定は無視される場合もあります (-new-window または -reuse-window コマンド ライン オプションを使用する場合など)。
+  "window.openFilesInNewWindow": "off",
+  
+  // 1 つのタブに相当するスペースの数。`editor.detectIndentation` がオンの場合、この設定はファイル コンテンツに基づいて上書きされます。
+  "editor.tabSize": 4,
+  
+  // Specifies the color theme used in the workbench.
+  "workbench.colorTheme": "Default Dark+",
+  //"workbench.colorTheme": "Visual Studio Dark",
+
+  // ウィンドウのズーム レベルを調整します。元のサイズは 0 で、1 つ上げるごとに (1 など) 20% ずつ拡大することを表し、1 つ下げるごとに (-1 など) 20% ずつ縮小することを表します。小数点以下の桁数を入力して、さらに細かくズーム レベルを調整することもできます。
+  "window.zoomLevel": -1,
+
+  // 有効にすると、ファイルの保存時に最新の行を末尾に挿入します。
+  "files.insertFinalNewline": false
 }
