@@ -1,4 +1,4 @@
-"-------Format--------
+"-------format--------
 "indent
 set smartindent
 set autoindent
@@ -9,7 +9,7 @@ set tabstop=2
 
 "-------look--------
 "line number
-set nu
+"set nu
 
 "cursor line
 set cursorline
@@ -20,5 +20,5 @@ set showmatch
 "highlight search
 set hlsearch
 
-"rubyComment    xxx links to Comment
-hi rubyComment ctermfg=23
+"syntax highlight
+syntax on
