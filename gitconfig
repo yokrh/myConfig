@@ -1,11 +1,14 @@
-[user]
-	email = 
-	name = yokrh
+[color]
+	ui = true
 [core]
-	editor = vim
-	excludesfile = /vagrant/myVagrantDir/.gitignore_global
+	editor = vim -c \"set fenc=utf-8\"
+	excludesfile = /Users/yoka/.gitignore_global
+[user]
+	name = yokrh
+	email = y.oka.gml@gmail.com
 [alias]
-  l = log --all --pretty=format:\"%C(yellow)%h %C(White)%ad | %C(White)%s%C(Green)%d %C(Red)[%an]\" --graph --date=short  
-
+	l = log --all --pretty=format:\"%C(yellow)%h %C(White)%ad | %C(White)%s%C(Green)%d %C(Red)[%an]\" --graph --date=short
 [merge]
 	ff = false
+[diff]
+	compactionHeuristic = true
