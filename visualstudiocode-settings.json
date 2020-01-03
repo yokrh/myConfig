@@ -3,6 +3,7 @@
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 4,
     "javascript.updateImportsOnFileMove.enabled": "never",
+    "javascript.implicitProjectConfig.checkJs": true,
     "window.zoomLevel": 0,
     "editor.formatOnSave": true
 }
