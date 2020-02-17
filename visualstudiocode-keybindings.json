@@ -1,50 +1,43 @@
-// Place your key bindings in this file to overwrite the defaults
+// Place your key bindings in this file to override the defaults
 [
+    { "key": "cmd+t", "command": "workbench.action.splitEditor" },
+    { "key": "cmd+[", "command": "workbench.action.previousEditor" },
+    { "key": "cmd+]", "command": "workbench.action.nextEditor" },
 
-{ "key": "cmd+t", "command": "workbench.action.splitEditor" },
-{ "key": "cmd+[", "command": "workbench.action.focusLeftEditor" },
-{ "key": "cmd+]", "command": "workbench.action.focusRightEditor" },
+    { "key": "cmd+;", "command": "workbench.action.editor.changeLanguageMode" },
 
-{ "key": "cmd+;", "command": "workbench.action.editor.changeLanguageMode" },
+    { "key": "shift+cmd+f", "command": "editor.action.startFindReplaceAction" },
 
-{ "key": "shift+cmd+f", "command": "editor.action.startFindReplaceAction" },
+    { "key": "cmd+i", "command": "editor.action.trimTrailingWhitespace", "when": "editorTextFocus" },
 
-{ "key": "cmd+i", "command": "editor.action.trimTrailingWhitespace",
-    "when": "editorTextFocus" },
+    { "key": "ctrl+u", "command": "cursorUndo", "when": "textInputFocus" },
+    { "key": "ctrl+r", "command": "cursorRedo", "when": "textInputFocus" },
 
+    { "key": "cmd+u", "command": "undo", "when": "editorTextFocus" },
+    { "key": "cmd+r", "command": "redo", "when": "editorTextFocus" },
 
-{ "key": "cmd+u", "command": "undo", "when": "editorTextFocus" },
-{ "key": "cmd+r", "command": "redo", "when": "editorTextFocus" },
+    { "key": "cmd+d", "command": "editor.action.deleteLines", "when": "editorTextFocus" },
+    { "key": "cmd+k", "command": "deleteAllRight", "when": "editorTextFocus" },
 
-{ "key": "cmd+d", "command": "editor.action.deleteLines",
-    "when": "editorTextFocus" },
-{ "key": "cmd+k", "command": "deleteAllRight",
-    "when": "editorTextFocus" },
+    { "key": "cmd+l", "command": "editor.action.copyLinesUpAction", "when": "editorTextFocus" },
 
-{ "key": "cmd+l", "command": "editor.action.copyLinesUpAction",
-    "when": "editorTextFocus" },
+    { "key": "cmd+e", "command": "cursorEnd", "when": "editorTextFocus" },
 
-
-{ "key": "cmd+e", "command": "cursorEnd", "when": "editorTextFocus" },
-
-{ "key": "cmd+left", "command": "cursorWordLeft",
-    "when": "editorTextFocus" },
-{ "key": "shift+cmd+left", "command": "cursorWordLeftSelect",
-    "when": "editorTextFocus" },
-{ "key": "cmd+right", "command": "cursorWordRight",
-    "when": "editorTextFocus" },
-{ "key": "shift+cmd+right", "command": "cursorWordRightSelect",
-    "when": "editorTextFocus" },
-{ "key": "cmd+down", "command": "cursorPageDown",
-    "when": "editorTextFocus" },
-{ "key": "shift+cmd+down", "command": "cursorPageDownSelect",
-    "when": "editorTextFocus" },
-{ "key": "cmd+up", "command": "cursorPageUp",
-    "when": "editorTextFocus" },
-{ "key": "shift+cmd+up", "command": "cursorPageUpSelect",
-    "when": "editorTextFocus" }
-
-//{ "key": "shift+cmd+u", "command": "cursorUndo", "when": "editorTextFocus" }
-//{ "key": "cmd+. up", "command": "workbench.files.action.openPreviousWorkingFile" },
-
+    { "key": "cmd+left", "command": "cursorWordLeft",
+        "when": "editorTextFocus" },
+    { "key": "shift+cmd+left", "command": "cursorWordLeftSelect",
+        "when": "editorTextFocus" },
+    { "key": "cmd+right", "command": "cursorWordRight",
+        "when": "editorTextFocus" },
+    { "key": "shift+cmd+right", "command": "cursorWordRightSelect",
+        "when": "editorTextFocus" },
+    { "key": "cmd+down", "command": "cursorPageDown",
+        "when": "editorTextFocus" },
+    { "key": "shift+cmd+down", "command": "cursorPageDownSelect",
+        "when": "editorTextFocus" },
+    { "key": "cmd+up", "command": "cursorPageUp",
+        "when": "editorTextFocus" },
+    { "key": "shift+cmd+up", "command": "cursorPageUpSelect",
+        "when": "editorTextFocus"
+    }
 ]
