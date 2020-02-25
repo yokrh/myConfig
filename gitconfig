@@ -2,7 +2,7 @@
 	ui = true
 [core]
 	editor = vim -c \"set fenc=utf-8\"
-	excludesfile = /Users/yoka/.gitignore_global
+	excludesfile = /Users/yoshi/.gitignore_global
 [user]
 	name = yokrh
 	email = y.oka.gml@gmail.com
