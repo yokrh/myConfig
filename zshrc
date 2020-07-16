@@ -11,4 +11,4 @@ zstyle ':vcs_info:git:*' formats 'on branch %b'
 setopt PROMPT_SUBST
 #PROMPT='%n in ${PWD/#$HOME/~} ${vcs_info_msg_0_} > '
 
-PROMPT='%{$fg[green]%}%n %{$fg_bold[yellow]%}${PWD/#$HOME/~} %{$fg_bold[blue]%}${vcs_info_msg_0_}%{$reset_color%}%% '
+PROMPT='%{$fg[green]%}%n %{$fg[yellow]%}${PWD/#$HOME/~} %{$fg_bold[blue]%}${vcs_info_msg_0_}%{$reset_color%}%% '
