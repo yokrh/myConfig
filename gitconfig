@@ -12,3 +12,6 @@
 	ff = false
 [diff]
 	compactionHeuristic = true
+[pull]
+  rebase = merges
+  
