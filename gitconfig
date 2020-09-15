@@ -3,6 +3,7 @@
 [core]
 	editor = vim -c \"set fenc=utf-8\"
 	excludesfile = /Users/yoshi/.gitignore_global
+	ignorecase = false
 [user]
 	name = yokrh
 	email = y.oka.gml@gmail.com
