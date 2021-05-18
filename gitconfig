@@ -14,5 +14,5 @@
 [diff]
 	compactionHeuristic = true
 [pull]
-  rebase = merges
+	rebase = merges
   
