@@ -1,9 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.enablePreview": false,
     "editor.tabSize": 4,
     "javascript.updateImportsOnFileMove.enabled": "never",
-    "javascript.implicitProjectConfig.checkJs": true,
+    "js/ts.implicitProjectConfig.checkJs": true,
     "window.zoomLevel": 0,
     "editor.formatOnSave": true
 }
