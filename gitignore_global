@@ -1,2 +1,5 @@
 *~
 .DS_Store
+
+### How to configure
+# git config --global core.excludesfile ~/.gitignore_global
