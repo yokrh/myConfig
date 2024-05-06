@@ -4,6 +4,11 @@
     { "key": "cmd+[", "command": "workbench.action.previousEditor" },
     { "key": "cmd+]", "command": "workbench.action.nextEditor" },
 
+    {
+        "key": "cmd+f cmd+f",
+        "command": "editor.action.startFindReplaceAction"
+    },
+
     { "key": "cmd+;", "command": "workbench.action.editor.changeLanguageMode" },
 
     {
@@ -40,10 +45,5 @@
     { "key": "cmd+up", "command": "cursorPageUp",
         "when": "editorTextFocus" },
     { "key": "shift+cmd+up", "command": "cursorPageUpSelect",
-        "when": "editorTextFocus"
-    },
-
-    { "key": "cmd+f cmd+f", "command": "editor.action.startFindReplaceAction",
-        "when": "editorTextFocus"
-    }
+        "when": "editorTextFocus" }
 ]
