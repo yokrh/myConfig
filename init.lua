@@ -6,5 +6,4 @@ spoon.ShiftIt:bindHotkeys({
   right = { { 'option', 'cmd' }, 'right' },
   maximum = { { 'option', 'cmd' }, 'f' },
 })
-spoon.ShiftIt:setWindowCyclingSizes({ 50, 33, 67 }, { 50 })
-
+spoon.ShiftIt:setWindowCyclingSizes({ 50, 33, 20, 80, 67 }, { 50 })
