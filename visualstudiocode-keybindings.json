@@ -6,9 +6,11 @@
 
     { "key": "cmd+;", "command": "workbench.action.editor.changeLanguageMode" },
 
-    { "key": "shift+cmd+f", "command": "editor.action.startFindReplaceAction" },
-
-    { "key": "cmd+i", "command": "editor.action.trimTrailingWhitespace", "when": "editorTextFocus" },
+    {
+        "key": "cmd+i",
+        "command": "editor.action.trimTrailingWhitespace",
+        "when": "editorTextFocus"
+    },
 
     { "key": "ctrl+u", "command": "cursorUndo", "when": "textInputFocus" },
     { "key": "ctrl+r", "command": "cursorRedo", "when": "textInputFocus" },
@@ -38,6 +40,10 @@
     { "key": "cmd+up", "command": "cursorPageUp",
         "when": "editorTextFocus" },
     { "key": "shift+cmd+up", "command": "cursorPageUpSelect",
+        "when": "editorTextFocus"
+    },
+
+    { "key": "cmd+f cmd+f", "command": "editor.action.startFindReplaceAction",
         "when": "editorTextFocus"
     }
 ]
