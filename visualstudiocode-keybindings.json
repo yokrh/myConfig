@@ -5,7 +5,7 @@
     { "key": "cmd+]", "command": "workbench.action.nextEditor" },
 
     {
-        "key": "cmd+f cmd+f",
+        "key": "cmd+g",
         "command": "editor.action.startFindReplaceAction"
     },
 
