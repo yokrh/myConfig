@@ -1,8 +1,19 @@
 // Place your key bindings in this file to override the defaults
 [
     { "key": "cmd+t", "command": "workbench.action.splitEditor" },
-    { "key": "cmd+[", "command": "workbench.action.previousEditor" },
-    { "key": "cmd+]", "command": "workbench.action.nextEditor" },
+    { "key": "shift+cmd+[", "command": "workbench.action.previousEditor" },
+    { "key": "shift+cmd+]", "command": "workbench.action.nextEditor" },
+
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.navigateBack",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+]",
+        "command": "workbench.action.navigateForward",
+        "when": "editorTextFocus"
+    },
 
     {
         "key": "cmd+g",
@@ -45,5 +56,6 @@
     { "key": "cmd+up", "command": "cursorPageUp",
         "when": "editorTextFocus" },
     { "key": "shift+cmd+up", "command": "cursorPageUpSelect",
-        "when": "editorTextFocus" }
+        "when": "editorTextFocus"
+    },
 ]
