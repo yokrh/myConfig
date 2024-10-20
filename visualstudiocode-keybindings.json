@@ -9,7 +9,7 @@
     // { "key": "cmd+[", "command": "workbench.action.navigateBack", "when": "editorTextFocus" },
     // { "key": "cmd+]", "command": "workbench.action.navigateForward", "when": "editorTextFocus" },
 
-    { "key": "cmd+g", "command": "editor.action.startFindReplaceAction", "when": "editorTextFocus" },
+    { "key": "cmd+g", "command": "editor.action.startFindReplaceAction", "when": "editorFocus" },
 
     { "key": "cmd+;", "command": "workbench.action.editor.changeLanguageMode", "when": "editorTextFocus" },
 
@@ -33,4 +33,10 @@
     { "key": "shift+cmd+down", "command": "cursorPageDownSelect", "when": "editorTextFocus" },
     { "key": "cmd+up", "command": "cursorPageUp", "when": "editorTextFocus" },
     { "key": "shift+cmd+up", "command": "cursorPageUpSelect", "when": "editorTextFocus" },
+
+    {
+        "key": "cmd+g",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "editorFocus"
+    },
 ]
