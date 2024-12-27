@@ -9,6 +9,7 @@
 	email = y.oka.gml@gmail.com
 [alias]
 	l = log --all --pretty=format:\"%C(yellow)%h %C(White)%ad | %C(White)%s%C(Green)%d %C(Red)[%an]\" --graph --date=short
+        sw = switch
 [merge]
 	ff = false
 [diff]
