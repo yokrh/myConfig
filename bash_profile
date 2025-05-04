@@ -30,7 +30,7 @@ export PATH=$GOPATH/bin:$PATH
 
 ## ALIAS
 #alias ll='ls -alF'
-#alias l='ls'
+alias tf=terraform
 
 ## COLOR
 # lsに色を付ける => http://jmblog.jp/archives/307
